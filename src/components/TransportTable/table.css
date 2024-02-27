@@ -1,0 +1,165 @@
+
+
+.ul-container{
+  list-style: none;
+}
+
+
+.list1{
+  color: green;
+}
+.list2{
+  color: red;
+}
+.extras{
+  color: #908f8f;
+}
+.main-containers {
+  padding: 20px;
+  display: flex; /* Set container to flex */
+  flex-direction: column; /* Set flex direction to column */
+}
+
+
+
+
+.search{
+  height: 30px;
+  width: 20vw;
+  border-radius: 15px;
+  border-width: thin;
+}
+
+.create{
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #aef4ef;
+  border: 1px solid;
+}
+
+
+.order-details {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.tebal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-button-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.header-button {
+  margin-right: 10px;
+}
+
+.header-button button {
+  background: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid #000;
+  padding: 4px;
+}
+
+.header-button button span {
+  margin-right: 5px;
+}
+
+.tebal-header button {
+  background: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+
+input[type="checkbox"],
+select {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.expand-collapse {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.expand-collapse::after {
+  content: "+";
+}
+
+.expand-collapse.open::after {
+  content: "-";
+}
+
+
+tr th[scope="tabler"] {
+  background-color: #061e54;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 100;
+  
+}
+
+tr {
+  border-bottom: 1px solid rgba( 0, 0, 0, 0.2 );
+}
+
+.orderno{
+  color: rgba(8, 10, 133, 0.877);
+  font-size: 15px;
+  font-weight: 500;
+}
+.status{
+  border: 1px solid rgb(10, 250, 10);
+  background-color: rgb(236, 247, 236);
+  color: rgb(7, 244, 7);
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+.bag{
+  color: green;
+}
+td{
+  border-width: none;
+  border: none;
+}
+
+tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
+
+tr:first-child th:last-child{
+  border-top-right-radius: 10px;
+}
