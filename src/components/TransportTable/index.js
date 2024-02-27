@@ -176,32 +176,3 @@ const TransportTable = () =>{
 }
 export default TransportTable;
 
-
-/*
-<tbody>
-                        {orderDetails.map(each => (
-                            <tr align="center" >
-                                <td><FaCircle color="green"/>1</td>
-                                <td></td>
-                                <td>{each.bidNo}<br/><span className="extras">Sunder Yadav</span></td>
-                                <td>{each.date}<br/><span className="extras">05:40 Pm</span></td>
-                                <th>{each.time}</th>
-                                <td>
-                                  
-                                    Grugaon
-                                    <br/><PiArrowDownFill/>
-                                    <p>Mumbai</p>
-                                  
-                                </td>
-                                <td>{each.vehicleDetails}</td>
-                                <td>{each.materialWeight}</td>
-                                <td>{each.response}<br/>view results</td>
-                                <td>{each.assignedStaff}<br/><span className="extras">5215001161264</span></td>
-                                <td onClick={handleClick}>{each.details}</td>
-                                
-                                <th>{showViewMore && <ViewMore />}</th>
-                            </tr>   
-                            
-                        ))}
-                        
-                    </tbody>*/
